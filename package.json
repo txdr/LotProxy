@@ -1,0 +1,19 @@
+{
+  "name": "lotomaproxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm install && node server/index.js"
+  },
+  "author": "Taylor",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.0.9",
+    "@mercuryworkshop/epoxy-transport": "^2.1.11",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "express": "^4.21.0",
+    "wisp-server-node": "^1.1.4"
+  }
+}
